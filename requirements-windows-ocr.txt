@@ -1,0 +1,5 @@
+# P2 Windows 本地 OCR 可选依赖（与共享 PP-OCRv6 模型及当前 K12 环境验证版本一致）
+# 先安装 requirements.txt，再按需安装本文件；不需要扫描页 OCR 时可以不安装。
+paddlepaddle==3.2.0
+paddleocr==3.7.0
+paddlex[ocr]==3.7.2

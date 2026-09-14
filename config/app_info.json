@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "application": {
+    "project_code": "LZH-P2",
+    "name": "教材知识图谱本地工作台",
+    "description": "教材知识点关系抽取、审查与导出工具"
+  },
+  "developer": {
+    "name": "刘钊昊",
+    "contact": "comlzh@outlook.com"
+  }
+}

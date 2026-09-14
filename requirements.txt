@@ -1,0 +1,14 @@
+# P2 教材知识点定义表构建工具运行与测试依赖
+PySide6>=6.6,<7
+PyMuPDF>=1.23,<2
+pypdf>=4,<7
+networkx>=3.2,<4
+openai>=1.0,<3
+pytest>=8,<10
+
+# 扫描教材的本地 OCR 依赖单独放在 requirements-windows-ocr.txt，
+# 以免无 OCR 需求的环境被迫安装较大的 Paddle 运行时。
+
+# 早期 web_app.py 原型的可选运行依赖；当前正式入口仍是 PySide6。
+fastapi>=0.110,<1
+uvicorn>=0.29,<1

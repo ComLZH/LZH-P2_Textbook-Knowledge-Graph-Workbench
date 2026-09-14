@@ -1,0 +1,43 @@
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# 真实密钥与私有配置（绝不能提交）
+.env
+*.local.env
+
+# 运行时存储与测试生成数据
+storage/*
+!storage/.gitkeep
+output/
+reports/
+*.tmp
+*.log
+*.sqlite3
+*.xlsx
+
+# 便携 Node.js 运行时执行体（体积约81MB，通过 scripts/setup_runtime.ps1 下载或复用系统 Node）
+vendor/layout_runtime/node/node.exe
+
+# 教材输入目录（严格排除真实版权 PDF）
+textbook/*
+!textbook/.gitkeep
+!textbook/README.md
+
+# 测试与工具临时产物
+.playwright-cli/
+.coverage
+htmlcov/
+dist/
+build/
+*.spec
+
+# IDE 与操作系统文件
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
